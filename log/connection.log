@@ -1,0 +1,88 @@
+
+
+2022-05-04 09:40:18,644	file name:mstr_connect.py	function name:get_connection  ERROR: Connection to MSTR http://94.228.126.130:8080/MicroStrategyLibrary/api/ is failed (CEO_Projects, administrator)
+Traceback (most recent call last):
+  File "c:\Users\user\Desktop\mstr_bot\git\mstr-chat-bot\mstr_connect.py", line 20, in get_connection
+    conn = Connection(base_url=url, username=mstr_username, password=mstr_password, login_mode=1, project_name=project_name)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\mstrio\connection.py", line 178, in __init__
+    self.connect()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\mstrio\connection.py", line 202, in connect
+    response = self._login()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\mstrio\connection.py", line 341, in _login
+    return authentication.login(connection=self)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\mstrio\utils\error_handlers.py", line 55, in inner
+    response_handler(response, error_msg, **handler_kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\mstrio\utils\helper.py", line 207, in response_handler
+    response.raise_for_status()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error:  for url: http://94.228.126.130:8080/MicroStrategyLibrary/api/auth/login
+
+
+2022-05-05 15:38:23,919	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 15:39:52,592	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 15:50:51,832	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 15:54:21,577	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 15:56:36,993	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:03:07,723	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:04:44,643	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:06:00,969	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:08:56,693	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:11:50,067	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:12:14,001	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:12:42,323	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:13:26,195	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:15:48,606	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:17:13,845	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:18:31,839	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-05 16:21:22,133	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-11 10:18:58,613	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-11 10:20:20,287	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-11 13:45:58,493	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-11 13:46:38,181	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-11 13:48:52,961	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/
+
+
+2022-05-16 15:30:22,303	file name:mstr_connect.py	function name:get_connection  INFO: Create connection to MSTR: http://94.228.126.130:8080/MicroStrategyLibrary/api/

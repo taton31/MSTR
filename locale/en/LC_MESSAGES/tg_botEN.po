@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-04-06 12:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+msgid "begin"
+msgstr "Enter /search to find report,\n/help for list of available commands"
+
+msgid "command_list"
+msgstr "List of available commands:\n /search - find report \n /language - change language\n /favorite - list of favorite\n /delete_favorite - deleting favorite reports\n /subscription - list of subscription"
+
+msgid "file_name"
+msgstr "Enter report name:"
+
+msgid "report_list"
+msgstr "List of available reports:"
+
+msgid "document_list"
+msgstr "List of available documents:"
+
+msgid "send_report"
+msgstr "Loading screenshot of report..."
+
+msgid "type_search"
+msgstr "Enter /search to find report"
+
+msgid "add_filter"
+msgstr "Add report filter?"
+
+msgid "yes"
+msgstr "Yes"
+
+msgid "no"
+msgstr "No"
+
+msgid "mult_selectors"
+msgstr "Multi select filters:"
+
+msgid "wo_mult_selectors"
+msgstr "Single select filters:"
+
+msgid "get_screen"
+msgstr "Get screenshot"
+
+msgid "more_selectors"
+msgstr "Choose another selector"
+
+msgid "set_sel_val"
+msgstr "After selecting the desired values, request a screenshot or install another selector"
+
+msgid "no_data"
+msgstr "Выбранные фильтры исключают все данные (только на англ)"
+
+msgid "find_another"
+msgstr "Search for another report"
+
+msgid "sel_val_mult"
+msgstr "Choose one or more selector's \'{0}\' value:"
+
+msgid "sel_val_wo_mult"
+msgstr "Choose one selector's \'{0}\' value: :"
+
+msgid "wtd"
+msgstr "What are you going to do bro?"
+
+msgid "selector_set"
+msgstr "Selector set in {0}"
+
+msgid "favorites"
+msgstr "Your favorites reports"
+
+msgid "send_favorite"
+msgstr "Sending a favorite report..."
+
+msgid "add_to_favorite"
+msgstr "Add to favorites"
+
+msgid "security_key_error"
+msgstr "This report is not adapted to security. Choose another report"
+
+msgid "added_to_favorite"
+msgstr "Document has been added to favorites"
+
+msgid "add_scheduler"
+msgstr "Add Subscription"
+
+msgid "nothing_found"
+msgstr "Nothing found, please try again"
+
+msgid "your_scheduler"
+msgstr "Your subscription"
+
+msgid "added_to_scheduler"
+msgstr "Document added to subscriptions"
+
+msgid "language_changed"
+msgstr "language changed successfully"
+
+msgid "session_is_dead"
+msgstr "Your MicroStrategy session has timed out due to inactivity, and you have been automatically logged out. Please open dashboard again"
+
+msgid "AM"
+msgstr "a.m."
+
+msgid "PM"
+msgstr "p.m."
+
+msgid "mon"
+msgstr "monday"
+
+msgid "tue"
+msgstr "tuesday"
+
+msgid "wed"
+msgstr "wednesday"
+
+msgid "thu"
+msgstr "thursday"
+
+msgid "fri"
+msgstr "friday"
+
+msgid "sat"
+msgstr "saturday"
+
+msgid "sun"
+msgstr "sunday"
+
+msgid "continue"
+msgstr "continue"
+
+msgid "set_day_of_week"
+msgstr "Select the days of the week when you want to receive the document"
+
+msgid "set_hour"
+msgstr "Select time (hour) \nFirst button toggles period"
+
+msgid "set_minute"
+msgstr "Select time (minute)"
+
+msgid "confirmation_of_scheduler"
+msgstr "Current settings:\nDays of the week - {0}\nTime - {1}\nIs that right?"
+
+msgid "scheduler_created"
+msgstr "Subscription created successfully"
+
+msgid "Сhosen"
+msgstr "Сhosen:"
+
+msgid "previus_page"
+msgstr "\u2b05\ufe0f"
+
+msgid "next_page"
+msgstr "\u27a1\ufe0f"
+
+msgid "current_page"
+msgstr "{0}"
+
+msgid "click_to_delete"
+msgstr "What to remove?"
+
+msgid "list_of_scheduler"
+msgstr "Subscription Management"
+
+msgid "list_of_scheduler_is_empty"
+msgstr "Subscription list is empty"
+
+msgid "list_of_favorite_is_empty"
+msgstr "Favorite list is empty"
+
+msgid "successfully_deleted"
+msgstr "Successfully deleted"
+
+msgid "info_scheduler"
+msgstr "Subscription details"
+
+msgid "delete_scheduler"
+msgstr "Remove subscription"
+
+msgid "info_about_scheduler"
+msgstr "Choose an action"
+
+msgid "start_command"
+msgstr "Start bot"
+
+msgid "language_command"
+msgstr "Choose bot language"
+
+msgid "help_command"
+msgstr "List of available commands"
+
+msgid "search_command"
+msgstr "Find report"
+
+msgid "favorite_command"
+msgstr "List of favorite"
+
+msgid "delete_favorite_command"
+msgstr "Deleting favorite reports"
+
+msgid "subscription_command"
+msgstr "List of subscription"
+
+msgid "sorry_login"
+msgstr "Sorry, you do not have access to use this bot \nYour telegram ID: {0}\nSend a request !!!here!!! to connect"
+
+msgid "time_scheduler"
+msgstr "Subscription by time"
+
+msgid "trigger_scheduler"
+msgstr "Event subscription"
+
+msgid "set_type_of_scheduler"
+msgstr "Choose a subscription type"
+
+msgid "choose_trigger"
+msgstr "Choose an event"
+
+msgid "time_scheduler"
+msgstr "Temporary subscriptions"
+
+msgid "trigger_scheduler"
+msgstr "Event subscriptions"
+
+msgid "what_type_of_scheduler"
+msgstr "What subscriptions do you want to see?"
+
+msgid "info_about_trigger_scheduler"
+msgstr "Document name: {0}\nTrigger: {1}\nLast run date: {2}"

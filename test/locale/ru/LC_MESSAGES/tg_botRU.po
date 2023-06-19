@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-04-06 12:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+msgid "Введите /search для поиска отчета,\n/help для списка доступных команд"
+msgstr ""
+
+msgid "Список доступных команд:\n /search - поиск отчета"
+msgstr ""
+
+msgid "Введи имя отчета:"
+msgstr ""
+
+msgid "Список доступных репортов:"
+msgstr ""
+
+msgid "Список доступных документов:"
+msgstr ""
+
+msgid "Отправляем скриншот отчета..."
+msgstr ""
+
+msgid "Введите /search для поиска отчетов"
+msgstr ""
+
+msgid "Хотите добавить фильтр на отчет?"
+msgstr ""
+
+msgid "Да"
+msgstr "ес"
+
+msgid "Нет"
+msgstr ""
+
+msgid "Селекторы с мультивыбором:"
+msgstr ""
+
+msgid "Селекторы без мультивыбора:"
+msgstr ""
+
+msgid "Выберите значения для %s селектора \'%s\':"
+msgstr ""

@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-04-06 12:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+msgid "begin"
+msgstr "Введите /search для поиска отчета,\n/help для списка доступных команд"
+
+msgid "command_list"
+msgstr "Список доступных команд:\n /search - поиск отчета \n /language - сменить язык\n /favorite - избранное\n /delete_favorite - удаление избранных отчетов\n /subscription - подписки"
+
+msgid "file_name"
+msgstr "Введи имя отчета:"
+
+msgid "report_list"
+msgstr "Список доступных репортов:"
+
+msgid "document_list"
+msgstr "Список доступных документов:"
+
+msgid "send_report"
+msgstr "Отправляем скриншот отчета..."
+
+msgid "type_search"
+msgstr "Введите /search для поиска отчетов"
+
+msgid "add_filter"
+msgstr "Хотите добавить фильтр на отчет?"
+
+msgid "yes"
+msgstr "Да"
+
+msgid "no"
+msgstr "Нет"
+
+msgid "mult_selectors"
+msgstr "Селекторы с мультивыбором:"
+
+msgid "wo_mult_selectors"
+msgstr "Селекторы без мультивыбора:"
+
+msgid "get_screen"
+msgstr "Прислать скрин"
+
+msgid "more_selectors"
+msgstr "Выбрать еще селектор"
+
+msgid "set_sel_val"
+msgstr "После выбора нужных значений запросите скриншот или установите еще селектор"
+
+msgid "no_data"
+msgstr "Выбранные фильтры исключают все данные"
+
+msgid "find_another"
+msgstr "Найти другой отчет"
+
+msgid "sel_val_mult"
+msgstr "Выберите одно или несколько значений для селектора \'{0}\':"
+
+msgid "sel_val_wo_mult"
+msgstr "Выберите одно значение для селектора \'{0}\':"
+
+msgid "wtd"
+msgstr "Что дальше делать?"
+
+msgid "selector_set"
+msgstr "Селектор установлен в {0}"
+
+msgid "favorites"
+msgstr "Список избранного:"
+
+msgid "send_favorite"
+msgstr "Отправляем избранный отчет..."
+
+msgid "add_to_favorite"
+msgstr "Добавить в избранное"
+
+msgid "security_key_error"
+msgstr "Этот отчет не адаптирован к ролевой модели. Выберите другой отчет"
+
+msgid "added_to_favorite"
+msgstr "Документ был добавлен в избранное"
+
+msgid "add_scheduler"
+msgstr "Добавить подписку"
+
+msgid "nothing_found"
+msgstr "Ничего не найдено, повторите ввод"
+
+msgid "your_scheduler"
+msgstr "Ваша подписка"
+
+msgid "added_to_scheduler"
+msgstr "Документ добавлен в подписки"
+
+msgid "language_changed"
+msgstr "Язык успешно изменен"
+
+msgid "session_is_dead"
+msgstr "Сессия MicroStrategy была отключена из-за бездействия. Пожалуйста, откройте документ повторно"
+
+msgid "AM"
+msgstr "До полудня"
+
+msgid "PM"
+msgstr "После полудня"
+
+msgid "mon"
+msgstr "понедельник"
+
+msgid "tue"
+msgstr "вторник"
+
+msgid "wed"
+msgstr "среда"
+
+msgid "thu"
+msgstr "четверг"
+
+msgid "fri"
+msgstr "пятница"
+
+msgid "sat"
+msgstr "суббота"
+
+msgid "sun"
+msgstr "воскресенье"
+
+msgid "continue"
+msgstr "Продолжить"
+
+msgid "set_day_of_week"
+msgstr "Выберите дни недели, когда вы хотите получать документ"
+
+msgid "set_hour"
+msgstr "Выберите время (час) \nПервая кнопка переключает период"
+
+msgid "set_minute"
+msgstr "Выберите время (минуты)"
+
+msgid "confirmation_of_scheduler"
+msgstr "Текущие настройки:\nДни недели - {0}\nВремя - {1}\nВсе верно?"
+
+msgid "scheduler_created"
+msgstr "Подписка создана успешно"
+
+msgid "сhosen"
+msgstr "Выбрано:"
+
+msgid "previus_page"
+msgstr "\u2b05\ufe0f"
+
+msgid "next_page"
+msgstr "\u27a1\ufe0f"
+
+msgid "current_page"
+msgstr "{0}"
+
+msgid "click_to_delete"
+msgstr "Что удалить?"
+
+msgid "list_of_scheduler"
+msgstr "Управление подписками"
+
+msgid "list_of_scheduler_is_empty"
+msgstr "Список подписок пуст"
+
+msgid "list_of_favorite_is_empty"
+msgstr "Список избранного пуст"
+
+msgid "successfully_deleted"
+msgstr "Успешно удалено"
+
+msgid "info_scheduler"
+msgstr "Подробная информация о подписке"
+
+msgid "delete_scheduler"
+msgstr "Удалить подписку"
+
+msgid "info_about_scheduler"
+msgstr "Выберите действие"
+
+msgid "start_command"
+msgstr "Запустить бота"
+
+msgid "language_command"
+msgstr "Выбрать язык бота"
+
+msgid "help_command"
+msgstr "Список доступных команд"
+
+msgid "search_command"
+msgstr "Поиск отчета"
+
+msgid "favorite_command"
+msgstr "Список избранных отчетов"
+
+msgid "delete_favorite_command"
+msgstr "Удаление избранных отчетов"
+
+msgid "subscription_command"
+msgstr "Список подписок"
+
+msgid "sorry_login"
+msgstr "Извините, у вас нет доступа к использованию этого бота \nВаш телеграм ID: {0}\nОтправьте запрос !!!вот сюда!!! для подключения"
+
+msgid "time_scheduler"
+msgstr "Подписка по времени"
+
+msgid "trigger_scheduler"
+msgstr "Подписка по событию"
+
+msgid "set_type_of_scheduler"
+msgstr "Выберите тип подписки"
+
+msgid "choose_trigger"
+msgstr "Выберите тригер"
+
+msgid "time_scheduler"
+msgstr "Временные подписки"
+
+msgid "trigger_scheduler"
+msgstr "Подписки на события"
+
+msgid "what_type_of_scheduler"
+msgstr "Какие подписки хотите посмотреть?"
+
+msgid "info_about_trigger_scheduler"
+msgstr "Имя документа: {0}\nТриггер: {1}\nДата последнего запуска: {2}"
+
+msgid ""
+msgstr ""

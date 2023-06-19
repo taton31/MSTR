@@ -1,0 +1,21 @@
+CREATE TABLE users
+               (ID INTEGER PRIMARY KEY,
+               security TEXT)
+
+CREATE TABLE subscription
+               (ID INTEGER PRIMARY KEY,
+               indicator_change TEXT,
+               company_events TEXT,
+               time_events TEXT)
+
+CREATE TABLE favorite
+               (ID INTEGER PRIMARY KEY,
+               favorite TEXT)
+
+CREATE TABLE trigger_scheduler
+               (trigger_name TEXT,
+               date_trigger DATETIME,
+               date_last_update DATETIME,
+               user_id INTEGER,
+               document_id TEXT,
+               document_filters TEXT)

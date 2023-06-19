@@ -1,0 +1,16 @@
+Помечаем все строки к переводу _(" ")
+
+Запускаем утилиту по поиску таких строк
+cd C:\Users\user\AppData\Local\Programs\Python\Python39\Tools\i18n
+pygettext.py C:\Users\user\Desktop\mstr_bot\git\mstr-chat-bot\test\translate\trash2.py
+
+получаем шаблон .pot
+заполняем его, меняем расширение на .po и вызываем 
+(в файле .po поменять строку 
+"Content-Type: text/plain; charset=UTF-8\n"
+)
+C:\Users\user\AppData\Local\Programs\Python\Python39\Tools\i18n>msgfmt.py C:\Users\user\Desktop\mstr_bot\git\mstr-chat-bot\test\translate\messages.po
+
+полученный файл mo раскидываем по языкам
+
+msgfmt.py C:\Users\user\Desktop\mstr_bot\git\mstr-chat-bot\locale\ru\LC_MESSAGES\tg_bot.po

@@ -1,0 +1,3 @@
+from trash import *
+
+out()

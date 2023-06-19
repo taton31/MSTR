@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-04-06 12:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+msgid "1"
+msgstr "Enter /search to find report,\n/help for list of available commands"
+
+msgid "Список доступных команд:\n /search - поиск отчета"
+msgstr "List of available commands:\n /search - find report"
+
+msgid "Введи имя отчета:"
+msgstr "Enter report name:"
+
+msgid "Список доступных репортов:"
+msgstr "List of available reports"
+
+msgid "Список доступных документов:"
+msgstr "List of available documents"
+
+msgid "Отправляем скриншот отчета..."
+msgstr "Loading screenshot of report..."
+
+msgid "Введите /search для поиска отчетов"
+msgstr "Enter /search to find report"
+
+msgid "Хотите добавить фильтр на отчет?"
+msgstr "Add report filter?"
+
+msgid "Да"
+msgstr "Yes"
+
+msgid "Нет"
+msgstr "No"
+
+msgid "Селекторы с мультивыбором:"
+msgstr "Multi select filters:"
+
+msgid "Селекторы без мультивыбора:"
+msgstr "Single select filters:"
+
+msgid "Выберите значения для %s селектора \'%s\':"
+msgstr "Choose elements of %s selector \'%s\':"
+
