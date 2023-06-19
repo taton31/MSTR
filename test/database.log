@@ -1,0 +1,10 @@
+
+2022-03-31 18:12:38,397  database  userID   fun     tbl     ERROR:   error occured with connection to base 2323
+
+NoneType: None
+2022-03-31 18:16:35,235  database  ERROR: 2323			error occured with connection to base 
+NoneType: None
+2022-03-31 18:17:07,942  database  ERROR: 4444444444444444			error occured with connection to base 
+NoneType: None
+2022-03-31 18:17:41,388  database  ERROR: 44			error occured with connection to base 
+NoneType: None

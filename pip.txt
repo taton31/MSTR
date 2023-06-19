@@ -1,0 +1,10 @@
+cd C:\Users\user\AppData\Local\Programs\Python\Python39\Scripts
+./jupyter notebook
+jupyter notebook
+
+git:
+перейти в репозиторий 
+cd "C:\Users\user\Desktop\mstr_bot\git\mstr-chat-bot"
+
+
+Chromium extracted to: C:\Users\user\AppData\Local\pyppeteer\pyppeteer\local-chromium\588429

@@ -1,0 +1,5 @@
+2022-03-31 12:59:54,553  root  INFO: starting the function without zero exception
+2022-03-31 12:59:54,553  root  WARNING: could not divide by zero
+2022-03-31 12:59:54,554  root  DEBUG: the function division_zero is done for the number 10
+2022-03-31 12:59:54,554  root  INFO: starting the function with zero exception
+2022-03-31 12:59:54,555  root  DEBUG: the function division is done for the number 5

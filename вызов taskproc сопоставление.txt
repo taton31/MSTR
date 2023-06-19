@@ -1,0 +1,112 @@
+var Bs={taskId:"mojoRWManipulation",rwb:this.rwb,messageID:this.msgId,stateID:-1,params:JSON.stringify(Bq)}
+	
+
+сопоставление 
+taskId: mojoRWManipulation
+
+rwb: 				 0.A76ADD394EC610BD76FFBCBE03023721.test*_document.*-1.0.0.1.K36-F0DA56F34212091B4893B8957900F412.2.1.0.0.1.0-*-1.*-1.3.8*.5.11.*-1.1.1.1.0.*-1.*0.*0.0.*0.*0.*0.*-1.0.0.*-1.0.1.3.*0.0.0.0.*0_1.K36.1-0.*0.*0.1.0.0_1.W12390BF5EDEF41D8A507193CEF784240*.***.0.0.1.428114243.0.100.180000.1.0.0._0.0.*0.1.0.*0.2.gb.0.0.0.0.*0.0
+mstrApp.docModel.bs: 0.A76ADD394EC610BD76FFBCBE03023721.test*_document.*-1.0.0.1.K36-F0DA56F34212091B4893B8957900F412.2.1.0.0.1.0-*-1.*-1.3.8*.5.11.*-1.1.1.1.0.*-1.*0.*0.0.*0.*0.*0.*-1.0.0.*-1.0.1.3.*0.0.0.0.*0_1.K36.1-0.*0.*0.1.0.0_1.W12390BF5EDEF41D8A507193CEF784240*.***.0.0.1.428114243.0.100.180000.1.0.0._0.0.*0.1.0.*0.2.gb.0.0.0.0.*0.0
+
+messageID: 			  F0DA56F34212091B4893B8957900F412
+mstrApp.docModel.mid: F0DA56F34212091B4893B8957900F412
+
+keyContext mstrApp.docModel.getNodeDataByKey('W5121A375615A451CA272FD10697EA8EA').defn.ck
+
+инфо о селекторе mstrApp.docModel.getNodeDataByKey('W5121A375615A451CA272FD10697EA8EA')
+
+stateID:-1 (фиксированно)
+
+mstrWeb mstrApp.servletState
+
+xts mstrmojo.now()
+
+
+{
+	"actions": [
+		{
+			"act": "setSelectorElements",
+			"keyContext": "1\u001EFB6800136946D43C790FA595F273FB404\u001EW5121A375615A451CA272FD10697EA8EA",
+			"ctlKey": "W5121A375615A451CA272FD10697EA8EA",
+			"elemList": "h3;77ECA0D9445F155A4B08DFAC49FC9624;3:ADAPTATION HOLES",
+			"isVisualization": false,
+			"include": true,
+			"tks": "W12390BF5EDEF41D8A507193CEF784240"
+		}
+	],
+	"partialUpdate": {
+		"selectors": [
+			"W5121A375615A451CA272FD10697EA8EA"
+		]
+	},
+	"style": {
+		"params": {
+			"treesToRender": 3
+		},
+		"name": "RWDocumentMojoStyle"
+	}
+}
+
+
+*	%2A
++	%20
+
+
+
+url = 'http://localhost:8080/MicroStrategy/servlet/taskProc'
+   
+fetch(url, {
+  method: 'POST',
+    headers: {
+      //'Content-Type': 'application/json'
+      'Content-type': 'application/x-www-form-urlencoded',
+    },
+body:"taskId=mojoRWManipulation&rwb="+mstrApp.docModel.bs+"&messageID="+mstrApp.docModel.mid+"&stateID=-1&params=%7B%22actions%22%3A%5B%7B%22act%22%3A%22setSelectorElements%22%2C%22keyContext%22%3A%221%5Cu001eFB6800136946D43C790FA595F273FB404%5Cu001eW5121A375615A451CA272FD10697EA8EA%22%2C%22ctlKey%22%3A%22W5121A375615A451CA272FD10697EA8EA%22%2C%22elemList%22%3A%22h3%3B77ECA0D9445F155A4B08DFAC49FC9624%3B3%3AADAPTATION%20HOLES%22%2C%22isVisualization%22%3Afalse%2C%22include%22%3Atrue%2C%22tks%22%3A%22W12390BF5EDEF41D8A507193CEF784240%22%7D%5D%2C%22partialUpdate%22%3A%7B%22selectors%22%3A%5B%22W5121A375615A451CA272FD10697EA8EA%22%5D%7D%2C%22style%22%3A%7B%22params%22%3A%7B%22treesToRender%22%3A3%7D%2C%22name%22%3A%22RWDocumentMojoStyle%22%7D%7D&zoomFactor=1&styleName=RWDocumentMojoStyle&taskContentType=json&taskEnv=xhr&xts="+ mstrmojo.now() +"&mstrWeb="+mstrApp.servletState
+})
+
+с костылем для new project 
+
+url = 'http://localhost:8080/MicroStrategy/servlet/taskProc'
+   
+fetch(url, {
+  method: 'POST',
+    headers: {
+      //'Content-Type': 'application/json'
+      'Content-type': 'application/x-www-form-urlencoded',
+    },
+body:"taskId=mojoRWManipulation&rwb="+mstrApp.docModel.bs+"&messageID="+mstrApp.docModel.mid+"&stateID=-1&params=%7B%22actions%22%3A%5B%7B%22act%22%3A%22setSelectorElements%22%2C%22keyContext%22%3A%221%5Cu001eFB6800136946D43C790FA595F273FB404%5Cu001eW5121A375615A451CA272FD10697EA8EA%22%2C%22ctlKey%22%3A%22W5121A375615A451CA272FD10697EA8EA%22%2C%22elemList%22%3A%22h3%3B77ECA0D9445F155A4B08DFAC49FC9624%3B3%3AADAPTATION%20HOLES%22%2C%22isVisualization%22%3Afalse%2C%22include%22%3Atrue%2C%22tks%22%3A%22W12390BF5EDEF41D8A507193CEF784240%22%7D%5D%2C%22partialUpdate%22%3A%7B%22selectors%22%3A%5B%22W5121A375615A451CA272FD10697EA8EA%22%5D%7D%2C%22style%22%3A%7B%22params%22%3A%7B%22treesToRender%22%3A3%7D%2C%22name%22%3A%22RWDocumentMojoStyle%22%7D%7D&zoomFactor=1&styleName=RWDocumentMojoStyle&taskContentType=json&taskEnv=xhr&xts="+ mstrmojo.now() +"&mstrWeb="+mstrApp.servletState.replace('=.New Project','%3D.New%20Project')
+})
+
+
+
+url = 'http://localhost:8080/MicroStrategy/servlet/taskProc'
+   
+fetch(url, {
+  method: 'POST',
+    headers: {
+      //'Content-Type': 'application/json'
+      'Content-type': 'application/x-www-form-urlencoded',
+    },
+body:"taskId=mojoRWManipulation&rwb="+mstrApp.docModel.bs+"&messageID="+mstrApp.docModel.mid+"&stateID=-1&params=%7B%22actions%22%3A%5B%7B%22act%22%3A%22setSelectorElements%22%2C%22keyContext%22%3A%221%5Cu001eFB6800136946D43C790FA595F273FB404%5Cu001eW5121A375615A451CA272FD10697EA8EA%22%2C%22ctlKey%22%3A%22W5121A375615A451CA272FD10697EA8EA%22%2C%22elemList%22%3A%22h44%3B77ECA0D9445F155A4B08DFAC49FC9624%3B3%3AADAPTATION%20HOLES%22%2C%22isVisualization%22%3Afalse%2C%22include%22%3Atrue%2C%22tks%22%3A%22W12390BF5EDEF41D8A507193CEF784240%22%7D%5D%2C%22partialUpdate%22%3A%7B%22selectors%22%3A%5B%22W5121A375615A451CA272FD10697EA8EA%22%5D%7D%2C%22style%22%3A%7B%22params%22%3A%7B%22treesToRender%22%3A3%7D%2C%22name%22%3A%22RWDocumentMojoStyle%22%7D%7D&zoomFactor=1&styleName=RWDocumentMojoStyle&taskContentType=json&taskEnv=xhr&xts="+ mstrmojo.now() +"&mstrWeb="+mstrApp.servletState
+})
+
+z=document.querySelectorAll('div[class="mstrmojo-DocSelector"] .mstrmojo-Button-text')
+for (let i = 0; i < z.length; i++) { 
+    console.log(z[i]);
+  if (z[i].innerText==='OK') {z[i].click(); break;}
+}
+
+
+много функций (н-р персонал вью или сэйв док, переключение между режимами, refresh, resetselectors)
+mstrApp.docModel.controller
+
+mstrApp.docModel.controller.refresh()
+
+
+
+mstrAlertsEditor()
+
+id "alertsEditor_AlertsReportEditorStyle"
+
+mstrAlertsEditor.prototype.saveAndClose
+
+this.subscriptionForm
